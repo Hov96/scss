@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import './variables/variables.scss';
+
+// This is main styles file. Here I'm describing some nullable styles and common classes.
+body {
+    font-family: $font-sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bg-primary;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+input,
+textarea,
+button {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// After flex- first word for property 'justify-content' and second one for 'align-items'.
+// This will help me to implement pages faster
+.flex-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-start-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-start-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-center-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-end-center {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-end-start {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.flex-between-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-col-between-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-col-start-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-col-start-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-col-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

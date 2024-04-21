@@ -1,0 +1,68 @@
+// Here I'm creating some common variables
+
+$max-w-container: 1200px;
+$bg-primary: #f2f2f2;
+$bg-navbar: #005D9A;
+
+// Font
+$font-sans: Montserrat, sans-serif;
+
+// Font Sizes
+$fz-12: 12px;
+$fz-14: 14px;
+$fz-16: 16px;
+$fz-18: 18px;
+$fz-20: 20px;
+$fz-22: 22px;
+$fz-24: 24px;
+$fz-30: 30px;
+$fz-36: 36px;
+$fz-48: 48px;
+
+// Colors
+$primary-700: #1d4ed8;
+$primary-800: #1e40af;
+
+$grey-100: #ededed;
+$grey-200: #c4c4c4;
+$grey-250: #bdbdbd;
+$grey-500: #4a4343;
+
+$orange-600: #fe6935;
+$secondary: #726b6b;
+$blackBlue: #003;
+$semantic: #9c0101;
+
+// Screens
+$max-screen-xs: 576px;
+$max-screen-sm: 640px;
+$max-screen-md: 768px;
+$max-screen-lg: 991px;
+$max-screen-xl: 1280px;
+$max-screen-2xl: 1536px;
+
+// Spacings
+$space-2: 2px;
+$space-4: 4px;
+$space-6: 6px;
+$space-8: 8px;
+$space-10: 10px;
+$space-12: 12px;
+$space-14: 14px;
+$space-16: 16px;
+$space-18: 18px;
+$space-20: 20px;
+$space-22: 22px;
+$space-24: 24px;
+$space-28: 28px;
+$space-30: 30px;
+$space-32: 32px;
+
+// Borders
+$border-primary-700: 1px solid $primary-700;
+$border-grey-200: 1px solid #C4C4C4;
+$border-focused: 1px solid #3b82f6;
+$border-error: 1px solid $semantic;
+
+// Border Radius
+$radius-md: 6px
